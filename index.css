@@ -1,0 +1,30 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Comfortaa', cursive;
+
+    }
+
+    #landing {
+        background-image: url(images/stardust/stardust.png);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+    }
+
+    #tools-img {
+        width: 120px;
+    }
+
+    #gmap {
+        height: 40vh;
+        width: 100%;
+    }
+
+    #tools {
+        background-image: url(images/crissXcross/crissXcross.png);
+        background-size: cover;
+        background-repeat: none;
+        background-position: center;
+    }
