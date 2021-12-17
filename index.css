@@ -1,90 +1,99 @@
-    * {
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
-        font-family: 'Comfortaa', cursive;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 2;
+    transition: opacity 2s;
+}
+
+#splash h1 {
+    font-family: 'Luckiest Guy', cursive;
+
+}
+
+#splash.fade {
+    opacity: 0;
+}
+
+
+#landing {
+    background-image: url(images/stardust/stardust.png);
+    animation: fall 10s linear infinite;
+}
+
+.tools-img {
+    width: 120px;
+}
+
+#facebook-icon:hover {
+    animation: sns 2s linear infinite;
+}
+
+#instagram-icon:hover {
+    animation: sns 2s linear infinite;
+}
+
+
+#gmap {
+    height: 40vh;
+    width: 100%;
+}
+
+#tools {
+    background-image: url(images/crissXcross/crissXcross.png);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+@keyframes fall {
+    0% {
+        background-position: 0px 0px;
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    100% {
+        background-position: 798px 798px;
+        opacity: 1.0;
+    }
+}
+
+@keyframes sns {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(3.0);
 
     }
 
-    #btn-back-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
+    100% {
+        transform: scale(1.0);
     }
-
-    #splash {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: white;
-        z-index: 2;
-        transition: opacity 2s;
-    }
-
-    #splash.fade {
-        opacity: 0;
-    }
-
-
-    #landing {
-        background-image: url(images/stardust/stardust.png);
-        animation: fall 10s linear infinite;
-    }
-
-    .tools-img {
-        width: 120px;
-    }
-
-    #facebook-icon:hover {
-        animation: sns 2s linear infinite;
-    }
-
-    #instagram-icon:hover {
-        animation: sns 2s linear infinite;
-    }
-
-
-    #gmap {
-        height: 40vh;
-        width: 100%;
-    }
-
-    #tools {
-        background-image: url(images/crissXcross/crissXcross.png);
-        background-size: cover;
-        background-repeat: none;
-        background-position: center;
-    }
-
-    @keyframes fall {
-        0% {
-            background-position: 0px 0px;
-            opacity: 1;
-        }
-
-        50% {
-            opacity: 0.9;
-        }
-
-        100% {
-            background-position: 798px 798px;
-            opacity: 1.0;
-        }
-    }
-
-    @keyframes sns {
-        0% {
-            transform: scale(1.0);
-        }
-
-        50% {
-            transform: scale(3.0);
-
-        }
-
-        100% {
-            transform: scale(1.0);
-        }
-    }
+}
