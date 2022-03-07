@@ -16,7 +16,7 @@ html {
     right: 20px;
 }
 
-#splash {
+/* #splash {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,12 +34,54 @@ html {
 
 #splash.fade {
     opacity: 0;
-}
-
+} */
 
 #landing {
-    background-image: url(images/stardust/stardust.png);
-    animation: fall 10s linear infinite;
+    background: linear-gradient(225deg, #141113, #181418, #1a171d, #1b1b22, #1c1e27, #1b222c, #192630, #162a34, #132f37, #113338, #123738, #153b37);
+    /* background-image: url(images/stardust/stardust.png);
+    animation: fall 10s linear infinite; */
+}
+
+.stack{
+    position:relative;
+    width:100%;
+    height:calc(100vh - 100px);
+}
+
+.stack .profile-description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    width:90%;
+    transform: translateY(-50%) translateX(-50%);
+}
+@media (min-width: 769px){
+    .stack .profile-description{
+        width: 40rem;
+    }
+}
+
+.stack .profile-image-frame{
+    width:80vw;
+    height:100%;
+}
+
+.stack .gray{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    width:auto;
+    max-height:100%;
+    pointer-events:none;
+    filter:brightness(10%);
+    @media (min-width: 769px){
+
+    }
 }
 
 .tools-img {
