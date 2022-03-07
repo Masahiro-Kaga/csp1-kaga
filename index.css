@@ -16,7 +16,7 @@ html {
     right: 20px;
 }
 
-/* #splash {
+#splash {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@ html {
 
 #splash.fade {
     opacity: 0;
-} */
+}
 
 #landing {
     background: linear-gradient(225deg, #141113, #181418, #1a171d, #1b1b22, #1c1e27, #1b222c, #192630, #162a34, #132f37, #113338, #123738, #153b37);
