@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">
 Portfolio - Portfolio Main Page but Proto
 </h1>
@@ -39,4 +38,4 @@ Portfolio - Portfolio Main Page but Proto
 
 ## Deploy
 
-- Github pages 
+- Github pages
