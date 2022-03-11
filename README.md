@@ -40,6 +40,3 @@ Portfolio - Portfolio Main Page but Proto
 ## Deploy
 
 - Github pages
-=======
-# csp1-kaga
->>>>>>> master
